@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
 from groq import Groq
+from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
